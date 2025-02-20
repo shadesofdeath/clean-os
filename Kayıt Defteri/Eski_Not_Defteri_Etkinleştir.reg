@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\txtfilelegacy\shell\open]
+
+[HKEY_CLASSES_ROOT\txtfilelegacy\shell\open\command]
+@="C:\\\\Windows\\\\System32\\\\notepad.exe \\\"%1\\\""
+
+[HKEY_CURRENT_USER\Software\Microsoft\Notepad]
+"ShowStoreBanner"=dword:00000000

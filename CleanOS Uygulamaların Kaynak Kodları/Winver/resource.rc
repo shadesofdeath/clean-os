@@ -1,0 +1,32 @@
+#include "resource.h"
+#include <windows.h>
+
+1 24 "manifest.xml"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "Windows"
+            VALUE "FileDescription", "Sürüm Raporlayıcı Program"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "ProductName", "Winver"
+            VALUE "ProductVersion", "1.0.0.0"
+            VALUE "LegalCopyright", "© 2025 Windows Corporation. Tüm Hakları Saklıdır."
+            VALUE "LegalTrademarks", "Windows, Microsoft Corporation'ın tescilli ticari markasıdır."
+            VALUE "OriginalFilename", "winver.exe"
+            VALUE "InternalName", "Winver"
+            VALUE "Comments", "Winver by ShadesOfDeath."
+            VALUE "PrivateBuild", "Derleme 1.0.0.0 - Dahili Test"
+            VALUE "SpecialBuild", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
